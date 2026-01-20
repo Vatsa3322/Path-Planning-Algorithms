@@ -1,0 +1,10 @@
+^F:\LIBRARY\1 VATSA\PROJECTS\PATH PLANNER VISUALIZER\BUILD\CMAKEFILES\3AA38149E6C07EF0190C0B8F56755D68\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/Library/1 vatsa/projects/Path Planner Visualizer" "-BF:/Library/1 vatsa/projects/Path Planner Visualizer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "F:/Library/1 vatsa/projects/Path Planner Visualizer/build/PathPlanningSimulator.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^F:\LIBRARY\1 VATSA\PROJECTS\PATH PLANNER VISUALIZER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/Library/1 vatsa/projects/Path Planner Visualizer" "-BF:/Library/1 vatsa/projects/Path Planner Visualizer/build" --check-stamp-file "F:/Library/1 vatsa/projects/Path Planner Visualizer/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

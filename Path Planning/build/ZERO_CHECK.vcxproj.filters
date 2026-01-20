@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Library\1 vatsa\projects\Path Planner Visualizer\build\CMakeFiles\3aa38149e6c07ef0190c0b8f56755d68\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7AE1E3F7-DD69-352B-9349-0C7A657A5ADC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
